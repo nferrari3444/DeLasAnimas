@@ -1,0 +1,164 @@
+body{
+    text-align: center;
+    /* padding-top: 70px; */ 
+
+}
+/*@media screen and (max-width: 768px)  {
+    body {padding-top: 0px;}
+}*/
+
+
+h3,h4,h5{
+    font-family: 'Faustina', serif;
+}
+
+p {
+   /* font-family: 'Courgette', cursive;*/
+    font-family: 'Roboto', sans-serif;
+   /* font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    line-height: 1.7em;
+    font-weight: 500;
+}
+
+/* .navbar {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  } */
+
+.brand-title {
+    color :  #6BA320;
+    font-family: 'Faustina', serif;
+    font-size: 1.4em;
+
+}
+
+
+.footer-link{
+    color: #444941;
+    font-family: 'Faustina', serif;
+    font-size: 1.2em;
+    line-height: 2em;
+
+}
+
+
+.nav-link{
+    color :  #6BA320;
+    font-size: 1.4em;
+    font-family: 'Faustina', serif;
+
+
+}
+
+
+.container-fluid {
+        padding: 2% 4% 2%;
+    }
+
+.card-img-top {
+    height: 14rem;
+    width: 10rem;
+    text-align: center;
+    align-content: center;
+}
+
+.colored-section {
+    background-color: #cbdabd;
+}
+.card{
+    display: inline;
+    text-align: center;
+    align-content: center;
+}
+
+.img-chacra{
+    width: 400px;
+    height: 350px
+}
+
+.footer-section{
+    background-color: #99A3A4;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+
+.btn {
+    width:50%;
+    border-color: green;
+}
+.section-heading {
+    padding-bottom: 25px;
+}
+
+.articles{
+   /* height: 1000px; */
+    line-height: 30px;
+   /* font-family: 'Montserrat', sans-serif;*/
+    font-weight: 400;
+    font-style: oblique;
+}
+
+.portafolio-item{
+ cursor: pointer;
+}
+
+.hover-item:hover{
+    opacity:0.8;
+    background-color: white;
+    -webkit-filter: drop-shadow(5px 5px 5 px #ffffff);
+    filter:  drop-shadow(5px 5px 5 px #ffffff);
+}
+button.mercadopago-button {
+    background-color: grey;
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    border-color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius:8px;
+    width: 50%;
+}
+
+button.mercadopago-button:hover {
+    opacity: 0.7;
+}
+.fa-whatsapp  {
+    color:#fff;
+    background:
+     linear-gradient(#25d366,#25d366) 14% 84%/16% 16% no-repeat,
+     radial-gradient(#25d366 60%,transparent 0);
+  }
+
+  a.BotonMP{
+      color: white;
+      background-image: url("../images/boton.png");
+      text-decoration: none;
+
+
+      width: 150px;
+      text-align: center;
+      align-content: center;
+  }
+
+  a.BotonMP:hover{
+    background-image: url("../images/botonhover.png");
+      color: white;
+      text-decoration:none;
+
+
+      width: 150px;
+      text-align:center;
+      align-content: center;
+  }
+
+  .footer-text{
+
+   font-family: 'Faustina', serif;
+      font-size: 1em;
+  }
