@@ -45,3 +45,20 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+var shiftWindow = function() {document.getElementById('mainNav').scrollBy(0, -300)}
+
+ 
+
+const navLinks = document.querySelectorAll('.nav-link')
+navLinks.forEach(function(link){
+    link.addEventListener('click', shiftWindow)
+
+
+})
+
+function handleClick(){
+    console.log("hola hola hola");
+
+}
