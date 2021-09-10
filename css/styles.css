@@ -20,18 +20,10 @@ p {
     font-weight: 500;
 }
 
-/* .navbar {
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  } */
+
 
 .brand-title {
-    color :  #6BA320;
+    color :  #6BA32D;
     font-family: 'Faustina', serif;
     font-size: 1.4em;
 
@@ -52,12 +44,6 @@ p {
     font-size: 1.4em;
     font-family: 'Faustina', serif;
     position: relative;
-   
-   /* display: block;
-    padding: 0.5rem 1rem;
-    color: #1abc9c;
-    text-decoration: none;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out; */
 }
 
 #mainNav {
@@ -76,41 +62,38 @@ p {
 #mainNav .navbar-nav li.nav-item a.nav-link {
     color: #fff;
   }
-#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+/* #mainNav .navbar-nav li.nav-item a.nav-link:hover {
     color: #1abc9c;
-  }
+  } */
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
     color: #fff;
   }
-#mainNav .navbar-nav li.nav-item a.nav-link.active {
+/* #mainNav .navbar-nav li.nav-item a.nav-link.active {
     color: #1abc9c;
-  }
-/*#mainNav .navbar-toggler {
-  /*  font-size: 80%; */
-   /* padding: 0.8rem; */
+  } */
+
   
-  
-@media (min-width: 992px) {
+ @media (min-width: 992px) {
   #mainNav {
-      padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
+      padding-top: 0rem;
+      padding-bottom: 0rem;
       transition: padding-top 0.3s, padding-bottom 0.3s;
-    }
-  #mainNav .navbar-brand {
+    } 
+  mainNav .navbar-brand {
       font-size: 1.75em;
       transition: font-size 0.3s;
     }
   #mainNav .navbar-nav {
       margin-top: 0;
     }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+      /*color: #fff; */
+      color: #1abc9c;
+    }  
+   /* #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
       color: #fff;
       background: #1abc9c;
-    }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-      color: #fff;
-      background: #1abc9c;
-    }
+    }  */
   
   #mainNav.navbar-shrink {
       padding-top: 0.5rem;
@@ -119,14 +102,83 @@ p {
   #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.5em;
     }
-  }
+  } 
 
-.page-section {
-    padding: 10rem 0;
-    margin-top: 200px;
-  }
+#Productos {
+  position: relative;
+  border-top: 52px solid transparent;
+  margin: -30px 0 0;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+#Productos:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  right: 0;
+  border-top: 2px solid #ccc;
+}
+
+#title {
+  position: relative;
+  border-top: 52px solid transparent;
+  margin: -50px 0 0;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+#title:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  right: 0;
+  border-top: 2px solid #ccc;
+}
 
 
+
+#Empresa {
+  position: relative;
+  border-top: 52px solid transparent;
+  margin: -50px 0 0;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+#Empresa:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  right: 0;
+  border-top: 2px solid #ccc;
+}
+
+
+/* Testimonial Section */
+/* #testimonials {
+  background-color: #ff4c68;
+} */
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: grey;
+  font-family: 'Faustina', serif;
+}
+
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
 
 .container-fluid {
         padding: 2% 4% 2%;
@@ -156,8 +208,8 @@ p {
 .footer-section{
     background-color: #99A3A4;
     margin-bottom: 0px;
-    padding-bottom: 10px;
-    padding-top: 40px;
+    padding-bottom: 5px;
+    padding-top: 10px;
 }
 
 .btn {
@@ -166,6 +218,12 @@ p {
 }
 .section-heading {
     padding-bottom: 25px;
+}
+
+.testimonial-icon {
+  
+  background-color: black;
+  fill: '%23000'
 }
 
 .articles{
@@ -232,5 +290,7 @@ button.mercadopago-button:hover {
   .footer-text{
 
    font-family: 'Faustina', serif;
-      font-size: 1em;
+      font-size: 1.15em;
+    
+      display: inline;
   }
