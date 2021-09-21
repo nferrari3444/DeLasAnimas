@@ -27,7 +27,7 @@ window.addEventListener('DOMContentLoaded', event => {
     if (mainNav) {
         new bootstrap.ScrollSpy(document.body, {
             target: '#mainNav',
-            offset: 72,
+            offset: 52,
         });
     }; 
 
@@ -47,18 +47,14 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 
-var shiftWindow = function() {document.getElementById('mainNav').scrollBy(0, -300)}
+// var shiftWindow = function() {document.getElementById('mainNav').scrollBy(0, -300)}
 
  
 
-const navLinks = document.querySelectorAll('.nav-link')
-navLinks.forEach(function(link){
-    link.addEventListener('click', shiftWindow)
+// const navLinks = document.querySelectorAll('.nav-link')
+// navLinks.forEach(function(link){
+//     link.addEventListener('click', shiftWindow)
 
 
-})
+// })
 
-function handleClick(){
-    console.log("hola hola hola");
-
-}

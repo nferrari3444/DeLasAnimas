@@ -1,11 +1,11 @@
 body{
     text-align: center;
-    padding-top: 70px;  
+    padding-top: 50px;  
 
 }
-/*@media screen and (max-width: 768px)  {
-    body {padding-top: 0px;}
-}*/
+@media screen and (max-width: 768px)  {
+    body {padding-top: 70px;}
+}
 
 
 h3,h4,h5{
@@ -46,6 +46,7 @@ p {
     font-size: 1.4em;
     font-family: 'Faustina', serif;
     position: relative;
+
 }
 
 #mainNav {
@@ -82,7 +83,7 @@ p {
       transition: font-size 0.3s;
     }
   #mainNav .navbar-nav {
-      margin-top: 0;
+      margin-top: 0px;
     }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
       
@@ -90,8 +91,8 @@ p {
     }  
   
   #mainNav.navbar-shrink {
-      padding-top: 0.5rem;
-      padding-bottom: 0.5rem;
+      padding-top: 0.1rem;
+      padding-bottom: 0.1rem;
     }
   #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.5em;
@@ -181,12 +182,16 @@ p {
 
 #Preguntas {
   position: relative;
-  border-top: 52px solid transparent;
-  margin: -50px 0 0;
+  border-top: 32px solid transparent;
+  margin: -30px 0 0;
+  height: 600px;
+  
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box;
 }
+
+
 
 #Preguntas:before {
   content: "";
@@ -195,6 +200,7 @@ p {
   left: 0;
   right: 0;
   border-top: 2px solid #ccc;
+  
 }
 
 
@@ -217,6 +223,24 @@ p {
   border-top: 2px solid #ccc;
 }
 
+#Ubicacion {
+  position: relative;
+  border-top: 52px solid transparent;
+  margin: -30px 0 0;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+    
+#Ubicacion:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  right: 0;
+  border-top: 2px solid #ccc;
+}
+
 
 
 
@@ -226,19 +250,7 @@ p {
   font-family: 'Monserrat', serif;
   font-size: 1.2rem;
 }
-.testimonial-text {
-  font-size: 2rem;
-  line-height: 1.5;
-  color: grey;
-  font-family: 'Faustina', serif;
-}
 
-
-.testimonial-image{
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-}
 
 .container-fluid {
         padding: 2% 4% 2%;
@@ -269,22 +281,22 @@ p {
     background-color: #99A3A4;
     margin-bottom: 0px;
     padding-bottom: 5px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
 
 .btn {
     width:50%;
     border-color: green;
 }
-.section-heading {
+/* .section-heading {
     padding-bottom: 25px;
-}
+} */
 
-.testimonial-icon {
+/* .testimonial-icon {
   
   background-color: black;
   fill: '%23000'
-}
+} */
 
 .portafolio-item{
  cursor: pointer;
@@ -298,8 +310,9 @@ p {
 }
 
 .Scroll {
-  height:400px;
-  overflow-y: scroll;
+
+ overflow-y: scroll; 
+ 
 }
 
 
