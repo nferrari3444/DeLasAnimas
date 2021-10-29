@@ -37,6 +37,7 @@ p {
     font-family: 'Faustina', serif;
     font-size: 1.2em;
     line-height: 2em;
+    text-align: center;
 
 }
 
@@ -49,6 +50,9 @@ p {
 
 }
 
+ul {
+  padding-left: 0px;
+}
 #mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem; 
@@ -183,8 +187,9 @@ p {
 #Preguntas {
   position: relative;
   border-top: 32px solid transparent;
-  margin: -30px 0 0;
-  height: 600px;
+  margin: -50px 0 0;
+  /* margin-top: -50px; */
+  height: 600px; 
   
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
@@ -196,7 +201,7 @@ p {
 #Preguntas:before {
   content: "";
   position: absolute;
-  top: -2px;
+  top: -20px;
   left: 0;
   right: 0;
   border-top: 2px solid #ccc;
@@ -281,22 +286,14 @@ p {
     background-color: #99A3A4;
     margin-bottom: 0px;
     padding-bottom: 5px;
-    /* padding-top: 10px; */
+    
 }
 
 .btn {
     width:50%;
     border-color: green;
 }
-/* .section-heading {
-    padding-bottom: 25px;
-} */
 
-/* .testimonial-icon {
-  
-  background-color: black;
-  fill: '%23000'
-} */
 
 .portafolio-item{
  cursor: pointer;
@@ -359,10 +356,12 @@ button.mercadopago-button:hover {
       align-content: center;
   }
 
-  .footer-text{
+  p.footer-text{
 
    font-family: 'Faustina', serif;
       font-size: 1.15em;
-    
+      padding-left: -10px;
       display: inline;
+      text-align: center;
   }
+
